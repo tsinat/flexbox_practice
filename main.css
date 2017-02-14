@@ -1,0 +1,35 @@
+body {
+    /*background: red;*/
+}
+
+.header {
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+}
+.header-main {
+    flex: 1;
+    align-items: stretch;
+    background: skyblue;
+}
+
+.col-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.first, .second, .third {
+    /*flex:1;*/
+    border: 1px solid grey;
+    padding: 10px;
+    flex-basis: 28%;
+}
+.first {
+    background: #1abc9c;
+}
+.second {
+    background: #2ecc71;
+}
+.third {
+    background: #3498db;
+}
