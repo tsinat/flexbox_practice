@@ -9,20 +9,31 @@ body {
 }
 .header-main {
     flex: 1;
-    align-items: stretch;
+    align-items: center;
+    justify-content: center;
     background: skyblue;
+    display: flex;
+    flex-direction: column;
 }
-
+.my-form {
+    width: 50%;
+}
+.form-group {
+    display: flex;
+}
+.form-control {
+    flex: 1;
+    margin-left: 20px;
+}
 .col-container {
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
 }
 .first, .second, .third {
-    /*flex:1;*/
     border: 1px solid grey;
     padding: 10px;
-    flex-basis: 28%;
+    flex-basis: 30%;
 }
 .first {
     background: #1abc9c;
