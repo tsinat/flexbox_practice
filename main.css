@@ -17,6 +17,17 @@ body {
     transform: skewY(-2deg);
 
 }
+.header:before {
+    content: '';
+    background: skyblue;
+    height: 60px;
+    width: 100%;
+    z-index: -1;
+    transform:skewY(2deg);
+    position: absolute;
+    left: 0;
+    right: 0;
+}
 .my-form {
     width: 50%;
     transform: skewY(2deg);
