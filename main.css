@@ -50,18 +50,9 @@ body {
     justify-content: space-around;
 }
 .first, .second, .third {
-    border: 1px solid grey;
-    padding: 10px;
+    padding: 20px;
     flex-basis: 30%;
-}
-.first {
-    background: #1abc9c;
-}
-.second {
-    background: #2ecc71;
-}
-.third {
-    background: #3498db;
+    background: white;
 }
 .section-one {
     padding: 20px;
