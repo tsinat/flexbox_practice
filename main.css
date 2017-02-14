@@ -20,10 +20,10 @@ body {
 .header:before {
     content: '';
     background: skyblue;
-    height: 60px;
+    height: 40px;
     width: 100%;
     z-index: -1;
-    transform:skewY(2deg);
+    /*transform:skewY(2deg);*/
     position: absolute;
     left: 0;
     right: 0;
