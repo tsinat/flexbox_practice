@@ -1,6 +1,11 @@
 body {
     /*background: red;*/
 }
+.main {
+    background-image: url('http://wallpapercave.com/wp/Hy2K8PS.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 .header {
     display: flex;
@@ -22,7 +27,7 @@ body {
     background: skyblue;
     height: 40px;
     width: 100%;
-    z-index: -1;
+    z-index: 1;
     /*transform:skewY(2deg);*/
     position: absolute;
     left: 0;
